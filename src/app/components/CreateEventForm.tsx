@@ -24,6 +24,7 @@ export default function CreateEventForm() {
     } catch (error: any) {
       setMessage(
         error.response?.data?.error || 'An error occurred while creating the event.'
+        
       );
     }
   };
